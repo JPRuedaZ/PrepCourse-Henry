@@ -1,0 +1,56 @@
+ETIQUETAS DE FORMATO
+
+Etiquetas <h1></h1> 
+-son para titulos y establecen jerarquias del 1 al 6.
+
+Etiquetas <p></p>
+-son para armar parrafos o texto para la pagina.
+
+Etiquetas <ol>Lista ordenada</ol> que contiene dentro <li>Aca va el contenido de la lista</li>
+-son para armar listas ordenadas en orden numerico.
+
+Etiquetas <ul>Lista desordenada</ul> que contiene dentro <li>Aca va el contenido de la lista</li>
+-son para armar listas desordenadas con puntos.
+
+Etiqueta <hr /> 
+-es una etiqueta que se cierra asi misma y su fin es hacer un separador de contenido mientras uno analiza como organizar los estilos
+
+Etiqueta <span></span>
+-es una etiqueta que se utiliza para textos cortos que yo no quiero que me ocupen el ancho entero de la pantalla.
+
+
+
+ETIQUETAS DE BLOQUES - Estructura el codigo a la hora de darle los estilos se hace mucho mas ordenado
+
+Etiqueta <header>Encabezado</header>
+-esta etiqueta nos permite colocar el contenido del encabezado de la pagina.
+
+Etiqueta <main>Contenido principal</main>
+-esta etiqueta nos permite estructurar el contenido principal de la pagina.
+
+Etiqueta <section>Secciones</section> 
+-esta etiqueta nos permite dividir y mejorar la estructura del contenido principal(va dentro de main).
+
+Etiqueta <article>articulos</article>
+-esta etiqueta nos permite dividir la secciones en articulos para estructurar la informacion (va dentro de section).
+
+Etiqueta <footer>Pie de paigna</footer>
+-esta es la parte final , debajo del contenido principal.
+
+NOTA: La etiqueta universal 'caja universal' que contiene informacion (parrafos o secciones) es la <div>para agrupar elementos en el ancho de pantalla</div>.
+
+
+
+
+ETIQUETAS DE CONTENIDO
+
+Etiqueta <img src="aca con un / selecciono la extension de imagen o la imagen que quiero"/>
+- esta nos permite insertar imagenes a nuestro html.
+
+Etiqueta <a href='a donde quiero ir cuando toque el link'>Este es para crear un hipervinculo o link</a>
+-esta nos permite crear links a otras paginas o lugar.
+
+Etiqueta <form>Formulario</form>
+-con su etiqueta <input/> un campo para que el usuario pueda ingresar tipos de informacion o datos, sea numero o texto o lo que se requiera con el atributo type="" y tiene un atributo name="" para saber para que es este input..
+-y el compañero de esa etiqueta es <label>indica lo que tiene que escribir en los inputs</label> para vincular el label con el input se le asigna el for='que se le asgina el mismo nombre del atributo name del input'
+-y con <button></button> que su accion predeterminada al estar en un formulario es enviarla a algun lado.
