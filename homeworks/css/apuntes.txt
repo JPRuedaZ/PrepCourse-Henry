@@ -1,0 +1,40 @@
+CSS - Diseño y estilo del sitio web
+
+Estilos in-line que se hacen directamente en el HTML
+
+atributos: son propiedades o configuraciones que modifican el elemento o etiqueta.
+
+class es un atributo que se le da a uno o mas elementos y se pueden aplicar varios.
+id es un atributo que le da una identificacion unica a la etiqueta o elemento.
+
+SELECTOR-PROPIEDAD-VALOR
+Selector es la referencia de acuerdo al orden que se le asigne conforme al uso que tenga
+Propiedad es la caracteristica que queremos cambiar
+Valor dira cualsera el estilo de esa propiedad
+
+Selector universal es *
+
+Selector para una class es .
+
+Selector para una id es #
+
+Selector para una etiqueta es su nombre
+
+JERARQUIA
+EL ID PREVALECE SOBRE LA CLASS 
+LA CLASS PREVALECE SOBRE EL ELEMENTO O ETIQUETA SOLA.
+
+MEDIDAS 
+px dimension de pixel.
+rem es el doblede em
+em  tamano pntos de la letra que se esta utilizando
+ex es mitad de em
+vw es el % del ancho de la pantalla del div o bloque que rodea.
+
+
+display flex (es mejor o mejor dicho tener claro el orden o la estructura de los elementos deben estar en un div)
+-predeterminado el comportamiento flex , posiciona los elementos en fila pero se puede cambiar con el flex direction: column.
+
+PSEUDOCLASES son para que un elemento tenga un comportamiento concreto 
+SELECTOR:pseudoclase {}
+ej :hover

@@ -1,0 +1,13 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+  }
+
+
+
+.miTexto {
+    font-size: 80px;
+    color: green;
+}
