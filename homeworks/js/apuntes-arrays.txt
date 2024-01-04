@@ -1,0 +1,32 @@
+ARRAYS
+-contenedor de elementos que tiene un indice o posicion desde 0.
+
+METODOS DE ARRAYS
+-son funciones ya prestablecidas en el objeto array.
+
+TIPOS DE METODOS DE ARRAYS
+
+-.push() => añade uno o mas elementos al final de un arreglo y devuelve la nueva longitud del array.
+
+-.pop() => elimina y devuelve el ultimo elemento de un arreglo.
+
+-.unshift() => agrega uno o mas elementos al inicio de un arreglo y devuelve la nueva longitud del array.
+
+-.shift() => elimina y devuelve el primer elemento de un arreglo.
+
+
+METODOS VARIOS INTERMEDIOS
+
+-.includes('colocamos lo que estamos necesitando') => determina si un arreglo incluye o contiene un elemento especifico. Devuelve true o false en cada caso, y se puede archivar en una variable el valor.
+
+-.every(va una funcion flecha () => {aca colocamos la condicion  }) => determina si todos los elementos en un arreglo satisfacen una misma condicion y se puede guardar en una variable el valor que es un booleano.
+
+-.split('estas comillas indican que se debe separar el string en cada letra en un array') => convierte un string en un arreglo, donde cada elemento contendra un sub-string, dependiendo del parametro divisor que indiquemos.
+
+-.join('aca junta todos los caracteres en caso de que este en un array y no deja espacios vacios') => convierte un arreglo en un string, uniendo todos los elementos de este en una misma cadena.
+
+
+METODOS DE RECORRIDO 
+-.forEach() => nos permite recorrer un arreglo, realizando alguna accion en para cada elemento pero no hace ninguna modificacion en el arreglo original solamente para mostrar lo que necesitamos.
+
+-.map() => tambien nos permite recorrer un arreglo y realizar una accion por cada elemento. la diferencia es que este metodo devuelve un nuevo arreglo los elementos modificados.

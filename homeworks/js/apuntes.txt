@@ -1,0 +1,15 @@
+variable = es un contenedor de informacion
+
+tipos de datos 
+
+-strings = representa datos textuales(cadenas de caracteres)
+-numeros = permite representar y manipular valores numericos
+-booleanos = representa un valor logico y puede tener dos valores, ya sea true or false
+-undefined = representa una variable que no ha sido declarada o a la cua no se le ha asignado un valor.
+-Null = representa la ausencia intencional de cualquier valor.
+
+metodo .length
+- te ayuda a saber la cantidad de caracteres o elementos tiene una cadena de texto o un arreglo.    
+
+
+OPERADORES Y PRECEDENCIA
