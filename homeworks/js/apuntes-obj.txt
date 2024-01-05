@@ -1,0 +1,33 @@
+OBJETOS 
+Se definen con un let nombreDelObj = {}
+
+Se componen o estructuran en forma clave:valor
+que vendrian siendo propiedad y su valor
+
+Se manipulan o se trabaja con ellos con 
+Dot-Notation (notacion por punto) =>
+Bracket-Notatios(notacion por corchetes) =>
+
+Muchas veces nos puede suceder que necesitemos utilizar una 
+variable externa para guardarla como propiedad en un objeto. 
+Es importante que en esos casos recordemos utilizar Bracket-Notation
+ sin comillas para que funcione correctamente.
+
+
+ TRABAJANDO CON OBJETOS AVANZADOS
+ En javascript existe un objeto gobal llamado Object que extiende diferentes metodos a los objetos.
+
+ METODOS 
+ .hasOwnProperty('nombre de la propiedad a buscar')  => para saber si un objeto tiene una propiedad y recibe un valor booleano.
+
+Object.keys(nombreDelObj) => devolvernos un arreglo con el nombre de todas las propiedades de un objeto.
+
+
+BUCLE EN OBJETOS
+for in = > es unico para objetos y su estructura es for(variable in objeto) {}
+ahi para acceder a la propiedad es con variable solamente
+pero si esel valor es objeto[variable]
+
+Objeto This
+-es un contexto
+nos ayuda para referirnos dentro de un objeto, cuando vayamos a llamar alguna propiedad y su valor dentro de una funcion creada en el objeto.

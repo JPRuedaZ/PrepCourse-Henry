@@ -13,3 +13,11 @@ metodo .length
 
 
 OPERADORES Y PRECEDENCIA
+-mirar tabla archivada en el navegador.
+
+CALLBACKS
+Las funciones callback son un tipo de funciones que se pasan por parámetro a otras funciones, en esta video clase aprenderemos que son y cómo usarlas a través de algunos ejemplos.
+
+mejor dicho es cuando se ejecuta una funcion 1 y dentro de ella se ejecuta una funcion 2.
+
+Esto nos ayuda a asegurar que una funcion no se va a ejecutar antes de que se complete una tarea.
