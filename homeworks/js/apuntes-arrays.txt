@@ -17,7 +17,7 @@ TIPOS DE METODOS DE ARRAYS
 
 METODOS VARIOS INTERMEDIOS
 
--.includes('colocamos lo que estamos necesitando') => determina si un arreglo incluye o contiene un elemento especifico. Devuelve true o false en cada caso, y se puede archivar en una variable el valor.
+-.includes('colocamos lo que estamos necesitando') => determina si un arreglo incluye o contiene un elemento especifico o si en un arreglo se encuentra algun elemento especifico de otro arreglo. Devuelve true o false en cada caso, y se puede archivar en una variable el valor.
 
 -.every(va una funcion flecha () => {aca colocamos la condicion  }) => determina si todos los elementos en un arreglo satisfacen una misma condicion y se puede guardar en una variable el valor que es un booleano.
 
@@ -25,8 +25,28 @@ METODOS VARIOS INTERMEDIOS
 
 -.join('aca junta todos los caracteres en caso de que este en un array y no deja espacios vacios') => convierte un arreglo en un string, uniendo todos los elementos de este en una misma cadena.
 
+-.reduce(() => {} ) => nos permite unificar un array a un solo dato sea una suma o un promedio.
+
+-Math.max(...array) => nos permite hallar el numero mas grande en un array.'
+
+.filter(function(elemento){ return una condicion establecida })'; => nos permite filtrar el array de acuerdo a una condicion especifica y nos devuelve un nuevo arreglo con los elementos del arreglo original solamente.
 
 METODOS DE RECORRIDO 
 -.forEach() => nos permite recorrer un arreglo, realizando alguna accion en para cada elemento pero no hace ninguna modificacion en el arreglo original solamente para mostrar lo que necesitamos.
 
 -.map() => tambien nos permite recorrer un arreglo y realizar una accion por cada elemento. la diferencia es que este metodo devuelve un nuevo arreglo los elementos modificados.
+
+
+function tablaDelSeis() {
+let numeros = [0,1,2,3,4,5,6,7,8,9,10];
+   let resultados = [];
+
+   for (let i = 0; i < numeros.length; i++) {
+      let multiplicacion = numeros[i] * 6;
+	console.log(multiplicacion)
+      resultados.push(multiplicacion);
+	console.log(multiplicacion)
+   }
+resultados.sort();
+return resultados;
+}

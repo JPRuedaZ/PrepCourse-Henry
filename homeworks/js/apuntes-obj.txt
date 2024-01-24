@@ -8,6 +8,25 @@ Se manipulan o se trabaja con ellos con
 Dot-Notation (notacion por punto) =>
 Bracket-Notatios(notacion por corchetes) =>
 
+PARA VERIFICAR SI EL OBJETO TIENE UN VALOR DEFINIDO DE UNA PROPIEDAD UTILIZAMOS LOS OPERADORES LOGICOS && || ! 
+returnando el objeto + && + objeto.propiedad !== undefined + objeto.propiedad !== null;
+
+Para invocar una funcion o metodo mediante Bracket-Notation es con objeto[funcion o metodo]() 
+Ademas si se va a utilizar algun otro parametro externo es siempre asi objeto[parametro].
+
+Pero en caso de una funcion existe la posibilidad que se pueda hacer mediante Dot-Notation 
+Ej: en una funcion que se quiera reemplazar el valor de una propiedad y que nos den el objeto y el valor de la nueva propiedad 
+como parametro se haria asi --> objeto.propiedad = nuevoValor  o con Bracket Notation seria -> objeto['propiedad'] = nuevoValor
+
+CUANDO TENEMOS UN ARRAY DE OBJETOS y queremos modificar el valor de una propiedad que todos tienen y nos lo dan en funcion
+iteramos con : for(let i = 0; i < objetoMuchosUsuarios.length; i++) { 
+   objetoMuchosUsuarios[i].esPremium = true; //aca con objetoMuchosUsuarios[i] posicionamos en cada objeto y con el .esPremium accedemos a la propiedad
+de cada objeto y con el = true modificamos el valor.
+}
+   return objetoMuchosUsuarios;
+
+
+
 Muchas veces nos puede suceder que necesitemos utilizar una 
 variable externa para guardarla como propiedad en un objeto. 
 Es importante que en esos casos recordemos utilizar Bracket-Notation
@@ -21,6 +40,9 @@ Es importante que en esos casos recordemos utilizar Bracket-Notation
  .hasOwnProperty('nombre de la propiedad a buscar')  => para saber si un objeto tiene una propiedad y recibe un valor booleano.
 
 Object.keys(nombreDelObj) => devolvernos un arreglo con el nombre de todas las propiedades de un objeto.
+
+Object.entries(objeto) => Este método toma un objeto (objeto) y devuelve un arreglo de sus pares clave-valor como arreglos de dos elementos. 
+En este caso, convertiría { D: 1, B: 2, C: 3 } en [['D', 1], ['B', 2], ['C', 3]] y luego se le aplica un metodo de arrays.(ej : .map)
 
 
 BUCLE EN OBJETOS
