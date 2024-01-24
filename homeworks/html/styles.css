@@ -1,0 +1,146 @@
+/* Reset.css */
+/* (Tu código reset.css aquí) */
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+#title {
+    margin-bottom: 20px;
+}
+#nav-bar {
+    border: 5px solid whitesmoke;
+    margin-bottom: 15px;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
+
+.saludo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.saludo p {
+  font-size: 1.2em;
+}
+
+.saludo img {
+  max-width: 50%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 50%; 
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  color: #007BFF;
+  font-size: 2em;
+  opacity: 0;
+  animation: fadeIn 1s forwards 0.5s;
+}
+
+section p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  opacity: 0;
+  animation: fadeIn 1s forwards 0.5s;
+}
+
+section ol {
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 5px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+footer div {
+  margin-top: 20px;
+}
+
+/* Estilos específicos para las redes sociales */
+#github, #instagram {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  opacity: 0;
+  animation: fadeIn 1s forwards 0.5s;
+}
+
+#github a, #instagram a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+#github img, #instagram img {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+#github img:hover, #instagram img:hover {
+  transform: scale(1.1); 
+}
+
+/* Animación de fadeIn */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

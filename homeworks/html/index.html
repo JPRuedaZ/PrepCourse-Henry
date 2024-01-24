@@ -1,50 +1,94 @@
 <!DOCTYPE html>
-<html lang="es"
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mi página web</title>
-       <link rel="stylesheet" type="text/css" href="/css/estilos.css"/>
-    </head>
-    <body>
-        <header>
-        <h1>Mi página de Animes</h1>
-        <p>mi nombre es Juan Pablo y soy un fan del anime.</p>
-        <img src="./papo.jpeg"/>
-    </header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Prueba</title>
+    <link rel="icon" href="./fenix.jpg"/>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./reset.css">
 
-    <br>
-    <main>
+</head>
+<body>
+    <header>
+        <h1 id="title">Portafolio Prueba</h1>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#estudios">Estudios</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#redes">Redes</a></li>
+    
+            </ul>
+        </nav>
+        <div class="saludo">
+            <p>Hola un gusto que estes aca, me presento mi nombre es <b>Juan Pablo Rueda Zuluaga</b> estoy cursando el bootcamp de soyHenry para poder convertirme en un FullStack Developer.</p>
+            <img src="./hacker.gif">
+        </div>
+       
+    </header>
+    
+    <section id="experiencia">
+        <h2>Experiencia</h2><br>
+
         <div>
-            <h2>Les quiero presentar los dos mejores animes</h2>
-            <p>Estos para mi han sido los mejores animes que me he visto</p>
+            <h3>Experiencias Tech</h3>
+            <p>En el momento no tengo experiencia en la parte Tech</p>
+        </div><br>
+            
+        <div>   
+            <h3>Experiencias Contables</h3>
             <ol>
-                <li>One Piece</li>
-                <li>Dragon Ball Z</li>
-                
+                <li>Colombina</li>
+                <li>Fanalca</li>
+                <li>Abbot</li>
             </ol>
         </div>
-        <hr />
-        <section>
-            <article>
-                <h3>One Piece</h3>
-                <img src="./one piece.jpg"/>
-                <p>Este es un anime de piratas brutal</p>
-            </article>
-        </section>
-        <hr />
-        <section>
-            <article>
-                <h3>Dragon Ball</h3>
-                <img src="dbz.jpe"/>
-                <p>Este es un anime de superacion muy bueno</p>
-            </article>
-        </section>
-        <hr />
-    </main>
-    <footer>
-        <p>Si se animan depronto a ver alguno de ellos ahi les dejo el enlace de cada uno</p>
-        <a href="https://www.youtube.com/watch?v=sSovEWQGTwg"><span>One Piece</span></a>   <a href="https://www.youtube.com/watch?v=smv4s0vr86U"><span>Dragon Ball Z</span></a>
+        
+    </section>
+    <section id="estudios">
+        <h2>Estudios</h2>
+        <ul>
+            <li>Primaria</li>
+            <li>Bachillerato</li>
+            <li>Universidad</li>
+            <li>Diplomado</li>
+            <li>Cursos Complementarios</li>
+        </ul>
+    </section>
+    <section id="tecnologias">       
+        <h2>Tecnologias</h2>
+        <p>Estas son algunas de las tecnologias que he manejado:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>MongoDb</li>
+        </ul>
+    </section>
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Gym</li>
+            <li>Escuchar Musica</li>
+            <li>Leer</li>
+            <li>Jugar Videojuegos</li>
+        </ul>
+    </section>
+    <footer id="redes">
+        <h2>Redes</h2>
+        <p>Estas son mis redes por si queres seguirme y darme like para apoyarme 👍</p>
+
+        <div id="github">
+            <img src="./github.png">
+            <a href="https://github.com/JPRuedaZ">GitHub</a>
+        </div>
+        <div id="instagram">
+            <img src="./instagram.png">
+            <a href="https://www.instagram.com/paporz/">Instagram</a>
+        </div>
+
     </footer>
-    </body>
+</body>
 </html>
