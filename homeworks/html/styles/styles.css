@@ -30,13 +30,13 @@ header {
     cursor: pointer; /* Cambia el cursor al pasar el ratón */
 }
 
-#nav-bar {
+.nav-bar {
     border: 5px solid whitesmoke;
     margin-bottom: 15px;
 }
 
 
-nav ul {
+.nav-bar-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -44,11 +44,11 @@ nav ul {
   justify-content: center;
 }
 
-nav li {
+.nav-bar-list-option {
   margin: 0 15px;
 }
 
-nav a {
+.nav-bar-list-option-link {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -56,7 +56,7 @@ nav a {
   transition: color 0.3s ease;
 }
 
-nav a:hover {
+.nav-bar-list-option-link:hover {
   color: lightseagreen;
 }
 
@@ -65,20 +65,20 @@ nav a:hover {
   margin-top: 30px;
 }
 
-.saludo p {
+.saludo-texto {
   font-size: 1.2em;
 }
 
-.nombre {
+.saludo-texto-nombre {
   transition: color 0.3s ease-in-out;
 }
 
-.nombre:hover {
+.saludo-texto-nombre:hover {
   color: yellow; /* Cambia a un color diferente al pasar el ratón */
   cursor: pointer;
 }
 
-.saludo img {
+.saludo-img {
   max-width: 50%;
   height: auto;
   margin-top: 20px;
@@ -107,11 +107,11 @@ section ol {
   margin-left: 20px;
 }
 
-#hobbies h2 {
+.hobbies-title {
   margin-bottom: 20px;
 }
 
-#hobbies .collage img {
+.hobbies .collage img {
   width: 50%;
   height: 50%;
   object-fit: cover;
@@ -119,11 +119,12 @@ section ol {
   transition: transform 0.3s ease-in-out;
 }
 
-#hobbies .collage:hover img {
+.hobbies .collage:hover img {
   transform: scale(1.1);
+  cursor: pointer;
 }
 
-#collage-container {
+.collage-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -131,43 +132,31 @@ section ol {
   justify-content: space-around;
 }
 
-footer {
+.redes {
   background-color: #343a40;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
-footer h2 {
+.redes-titulo {
     margin-bottom: 5px;
 }
 
-footer p {
+.redes-parrafo {
     margin-bottom: 5px;
-}
-footer div {
-  margin-top: 20px;
 }
 
 /* Estilos específicos para las redes sociales */
-#github, #instagram {
+.red-social {
   display: inline-block;
   text-align: center;
-  margin: 10px;
+  margin: 15px;
   opacity: 0;
   animation: fadeIn 1s forwards 0.5s;
 }
 
-#github a, #instagram a {
-  text-decoration: none;
-  display: block;
-  color: white;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-#github img, #instagram img {
+.red-social-img {
   width: 50px;
   height: 50px;
   margin-top: 10px;
@@ -175,8 +164,18 @@ footer div {
   transition: transform 0.3s ease;
 }
 
-#github img:hover, #instagram img:hover {
+.red-social-img:hover {
   transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.red-social-link {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
 }
 
 /* Animación de fadeIn */
