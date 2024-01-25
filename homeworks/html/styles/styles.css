@@ -18,7 +18,18 @@ header {
 }
 #title {
     margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    transition: color 0.3s ease-in-out;
 }
+
+#title:hover {
+  color: goldenrod; /* Cambia a un color diferente al pasar el ratón */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+}
+
 #nav-bar {
     border: 5px solid whitesmoke;
     margin-bottom: 15px;
@@ -46,7 +57,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #007BFF;
+  color: lightseagreen;
 }
 
 .saludo {
@@ -56,6 +67,15 @@ nav a:hover {
 
 .saludo p {
   font-size: 1.2em;
+}
+
+.nombre {
+  transition: color 0.3s ease-in-out;
+}
+
+.nombre:hover {
+  color: yellow; /* Cambia a un color diferente al pasar el ratón */
+  cursor: pointer;
 }
 
 .saludo img {
@@ -70,7 +90,7 @@ section {
 }
 
 section h2 {
-  color: #007BFF;
+  color: lightseagreen;
   font-size: 2em;
   opacity: 0;
   animation: fadeIn 1s forwards 0.5s;
@@ -85,6 +105,30 @@ section p {
 
 section ol {
   margin-left: 20px;
+}
+
+#hobbies h2 {
+  margin-bottom: 20px;
+}
+
+#hobbies .collage img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#hobbies .collage:hover img {
+  transform: scale(1.1);
+}
+
+#collage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  justify-content: space-around;
 }
 
 footer {

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Prueba</title>
-    <link rel="icon" href="./fenix.jpg"/>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./reset.css">
+    <link rel="icon" href="./styles/images/fenix.jpg"/>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/reset.css">
 
 </head>
 <body>
     <header>
-        <h1 id="title">Portafolio Prueba</h1>
+        <h1 id="title">Mi Portafolio</h1>
         <nav id="nav-bar">
             <ul>
                 <li><a href="#experiencia">Experiencia</a></li>
@@ -23,8 +23,8 @@
             </ul>
         </nav>
         <div class="saludo">
-            <p>Hola un gusto que estes aca, me presento mi nombre es <b>Juan Pablo Rueda Zuluaga</b> estoy cursando el bootcamp de soyHenry para poder convertirme en un FullStack Developer.</p>
-            <img src="./hacker.gif">
+            <p>Hola un gusto que estes aca, me presento mi nombre es <b class="nombre ">Juan Pablo Rueda Zuluaga</b> estoy cursando el bootcamp de soyHenry para poder convertirme en un FullStack Developer.</p>
+            <img src="./styles/images/hacker.gif">
         </div>
        
     </header>
@@ -61,31 +61,39 @@
         <h2>Tecnologias</h2>
         <p>Estas son algunas de las tecnologias que he manejado:</p>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>MongoDb</li>
+            <li><img src="./styles/images/html-5.png" alt="HTML">HTML</li>
+            <li><img src="./styles/images/css-3.png" alt="CSS">CSS</li>
+            <li><img src="./styles/images/js.png" alt="JS">JavaScript</li>
+            <li><img src="./styles/images/mongodb.png" alt="MONGODB">MongoDb</li>
         </ul>
     </section>
     <section id="hobbies">
         <h2>Hobbies</h2>
-        <ul>
-            <li>Gym</li>
-            <li>Escuchar Musica</li>
-            <li>Leer</li>
-            <li>Jugar Videojuegos</li>
-        </ul>
+        <div id="collage-container">
+            <div class="collage gym"ö>
+                <img src="./styles/images/gym.jpg" alt="Gimnasio" title="Gimnasio">
+            </div>
+            <div class="collage leer">
+                <img src="./styles/images/leer.jpg" alt="Leer" title="Leer">
+            </div>
+            <div class="collage codear">
+                <img src="./styles/images/coding.jpg" alt="Codear" title="Codear">
+            </div>
+            <div class="collage jugar">
+                <img src="./styles/images/videojuegos.jpg" alt="Jugar Videojuegos" title="Jugar Videojuegos">
+            </div>
+        </div>
     </section>
     <footer id="redes">
         <h2>Redes</h2>
         <p>Estas son mis redes por si queres seguirme y darme like para apoyarme 👍</p>
 
-        <div id="github">
-            <img src="./github.png">
+        <div class="red-social" id="github">
+            <img src="./styles/images/github.png">
             <a href="https://github.com/JPRuedaZ">GitHub</a>
         </div>
-        <div id="instagram">
-            <img src="./instagram.png">
+        <div class="red-social" id="instagram">
+            <img src="./styles/images/instagram.png">
             <a href="https://www.instagram.com/paporz/">Instagram</a>
         </div>
 
